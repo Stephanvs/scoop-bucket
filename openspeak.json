@@ -1,12 +1,12 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Small command-line text-to-speech client",
   "homepage": "https://openspeak.sh",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Stephanvs/OpenSpeak/releases/download/v0.1.0/openspeak-x86_64-pc-windows-msvc.zip",
-      "hash": "b3564201d99802545e200db5e36549a4f060e1256a34ddc505df8a3121dade49"
+      "url": "https://github.com/Stephanvs/OpenSpeak/releases/download/v0.1.1/openspeak-0.1.1-x86_64-pc-windows-msvc.zip",
+      "hash": "d42662a5748307540cf9b366fea110a98a262e758d99e7961c3432e5df236139"
     }
   },
   "bin": "openspeak.exe",
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Stephanvs/OpenSpeak/releases/download/v$version/openspeak-x86_64-pc-windows-msvc.zip"
+        "url": "https://github.com/Stephanvs/OpenSpeak/releases/download/v$version/openspeak-$version-x86_64-pc-windows-msvc.zip"
       }
     }
   }
